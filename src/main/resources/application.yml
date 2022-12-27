@@ -13,3 +13,8 @@ logging:
     com.alex.shevelyanchik.moexservice.moexclient: DEBUG
   file:
     name: logs/MoexService.log
+
+spring:
+  cache:
+    caffeine:
+      spec: maximumSize=48, expireAfterAccess=1h
