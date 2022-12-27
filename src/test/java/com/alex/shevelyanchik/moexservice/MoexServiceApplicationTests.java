@@ -1,4 +1,4 @@
-package com.alex.shevelyanchik;
+package com.alex.shevelyanchik.moexservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
